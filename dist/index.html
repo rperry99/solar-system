@@ -7,105 +7,237 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    <div id="sun">
+    <div id="sun" class="planet">
       <!-- <img src="" alt="The Sun"> -->
-      <h1>The Sun</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et porro
-        molestiae repudiandae delectus dolor obcaecati, neque officiis id eos
-        assumenda repellendus accusantium, adipisci quod fugit, dicta facilis
-        beatae nemo saepe.
-      </p>
+      <div class="planet-info">
+        <h1>The Sun</h1>
+        <p class="fact">
+          The sun is the center of our solar system and makes up 99.7% of the
+          mass of the entire solar system.
+        </p>
+        <ul class="fact-list">
+          <li>Age: ~4.5 Billion Years</li>
+        </ul>
+      </div>
     </div>
-    <div id="mercury">
+    <div id="mercury" class="planet">
       <!-- <img src="" alt="The Sun"> -->
-      <h1>Mercury</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et porro
-        molestiae repudiandae delectus dolor obcaecati, neque officiis id eos
-        assumenda repellendus accusantium, adipisci quod fugit, dicta facilis
-        beatae nemo saepe.
-      </p>
+      <div class="planet-info">
+        <h1>Mercury</h1>
+        <p class="fact">
+          Mercury is the smallest planet in our solar system, only slightly
+          larger than Earth's moon.
+        </p>
+        <ul class="fact-list">
+          <li>
+            Distance from the sun: ~ <span id="mercuryDistance">000</span>
+            <span class="planet-distance">DI</span>
+          </li>
+          <li>Length of a year: 88 Earth days</li>
+          <li>Length of a day: 59 Earth days</li>
+          <li>Planet Type: Terrestrial</li>
+          <li>Number of Moons: 0</li>
+        </ul>
+      </div>
     </div>
-    <div id="venus">
+    <div id="venus" class="planet">
       <!-- <img src="" alt="The Sun"> -->
-      <h1>Venus</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et porro
-        molestiae repudiandae delectus dolor obcaecati, neque officiis id eos
-        assumenda repellendus accusantium, adipisci quod fugit, dicta facilis
-        beatae nemo saepe.
-      </p>
+      <div class="planet-info">
+        <h1>Venus</h1>
+        <div class="fact">
+          Scientists belive water was once on Venus. Future Venus explorations
+          will search for evicdence of an ancient ocean.
+        </div>
+        <ul class="fact-list">
+          <li>
+            Distance from the sun: ~ <span id="venusDistance">000</span>
+            <span class="planet-distance">DI</span>
+          </li>
+          <li>Length of a year: 225 Earth days</li>
+          <li>Length of a day: 243 Earth days</li>
+          <li>Planet Type: Terrestrial</li>
+          <li>Number of Moons: 0</li>
+        </ul>
+      </div>
     </div>
-    <div id="earth">
+    <div id="earth" class="planet">
       <!-- <img src="" alt="The Sun"> -->
-      <h1>Earth</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et porro
-        molestiae repudiandae delectus dolor obcaecati, neque officiis id eos
-        assumenda repellendus accusantium, adipisci quod fugit, dicta facilis
-        beatae nemo saepe.
-      </p>
+      <div class="moons">
+        <div class="moon"><span class="moonLabel">Moon</span></div>
+      </div>
+      <div class="planet-info">
+        <h1>Earth</h1>
+        <div class="fact">
+          Earth's atmosphere is 78% nitrogen, 21% oxygen, and 1% other
+          ingredients. This is what makes our atmosphere capable of supporting
+          life.
+        </div>
+        <ul class="fact-list">
+          <li>
+            Distance from the sun: ~ <span id="earthDistance">000</span>
+            <span class="planet-distance">DI</span>
+          </li>
+          <li>Length of a year: 365 Earth days</li>
+          <li>Length of a day: 24 Hours</li>
+          <li>Planet Type: Terrestrial</li>
+          <li>Number of Moons: 1</li>
+        </ul>
+      </div>
     </div>
-    <div id="mars">
+    <div id="mars" class="planet">
       <!-- <img src="" alt="The Sun"> -->
-      <h1>Mars</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et porro
-        molestiae repudiandae delectus dolor obcaecati, neque officiis id eos
-        assumenda repellendus accusantium, adipisci quod fugit, dicta facilis
-        beatae nemo saepe.
-      </p>
+      <div class="moons">
+        <div class="moon"><span class="moonLabel">Phobos</span></div>
+        <div class="moon"><span class="moonLabel">Deimos</span></div>
+      </div>
+      <div class="planet-info">
+        <h1>Mars: <span>The Red Planet</span></h1>
+        <div class="fact">
+          Mars has a thin atmosphere made up mostly of carbon dioxide, argon,
+          nitrogen, and a small amount of oxygen and water vapor.
+        </div>
+        <ul class="fact-list">
+          <li>
+            Distance from the sun: ~ <span id="marsDistance">000</span>
+            <span class="planet-distance">DI</span>
+          </li>
+          <li>Length of a year: 687 Earth days</li>
+          <li>Length of a day: ~&gt;24 Hours</li>
+          <li>Planet Type: Terrestrial</li>
+          <li>Number of Moons: 2</li>
+        </ul>
+      </div>
     </div>
-    <div id="jupiter">
+    <div id="jupiter" class="planet">
       <!-- <img src="" alt="The Sun"> -->
-      <h1>Jupiter</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et porro
-        molestiae repudiandae delectus dolor obcaecati, neque officiis id eos
-        assumenda repellendus accusantium, adipisci quod fugit, dicta facilis
-        beatae nemo saepe.
-      </p>
+      <div class="moons">
+        <div class="moon"><span class="moonLabel">Callisto</span></div>
+        <div class="moon"><span class="moonLabel">Ganymede</span></div>
+        <div class="moon"><span class="moonLabel">Europa</span></div>
+        <div class="moon"><span class="moonLabel">Io</span></div>
+      </div>
+      <div class="planet-info">
+        <h1>Jupiter</h1>
+        <div class="fact">
+          Scientists can use the gravity of Jupiter to fling probes, or other
+          researh devices further into space.
+        </div>
+        <ul class="fact-list">
+          <li>
+            Distance from the sun: ~ <span id="jupiterDistance">000</span>
+            <span class="planet-distance">DI</span>
+          </li>
+          <li>Length of a year: 4,333 Earth days</li>
+          <li>Length of a day: 10 Hours</li>
+          <li>Planet Type: Gas Giant</li>
+          <li>Number of Moons: 75</li>
+        </ul>
+      </div>
     </div>
-    <div id="saturn">
+    <div id="saturn" class="planet">
       <!-- <img src="" alt="The Sun"> -->
-      <h1>Saturn</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et porro
-        molestiae repudiandae delectus dolor obcaecati, neque officiis id eos
-        assumenda repellendus accusantium, adipisci quod fugit, dicta facilis
-        beatae nemo saepe.
-      </p>
+      <div class="moons">
+        <div class="moon"><span class="moonLabel">Titan</span></div>
+        <div class="moon"><span class="moonLabel">Enceladus</span></div>
+        <div class="moon"><span class="moonLabel">Hyperion</span></div>
+      </div>
+      <div class="planet-info">
+        <h1>Saturn</h1>
+        <div class="fact">
+          Few missions have visited Saturn: Pioneer 11 and Voyagers 1 and 2 flew
+          by, but Cassini orbited Saturn 294 times from 2004 to 2017.
+        </div>
+        <ul class="fact-list">
+          <li>
+            Distance from the sun: ~ <span id="saturnDistance">000</span>
+            <span class="planet-distance">DI</span>
+          </li>
+          <li>Length of a year: 10,759 Earth days</li>
+          <li>Length of a day: ~ 10.7 Hours</li>
+          <li>Planet Type: Gas Giant</li>
+          <li>Number of Moons: 82</li>
+        </ul>
+      </div>
     </div>
-    <div id="uranus">
+    <div id="uranus" class="planet">
       <!-- <img src="" alt="The Sun"> -->
-      <h1>Uranus</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et porro
-        molestiae repudiandae delectus dolor obcaecati, neque officiis id eos
-        assumenda repellendus accusantium, adipisci quod fugit, dicta facilis
-        beatae nemo saepe.
-      </p>
+      <div class="moons">
+        <div class="moon"><span class="moonLabel">Umbrial</span></div>
+        <div class="moon"><span class="moonLabel">Oberon</span></div>
+        <div class="moon"><span class="moonLabel">Puck</span></div>
+        <div class="moon"><span class="moonLabel">Ophelia</span></div>
+        <div class="moon"><span class="moonLabel">Sycorax</span></div>
+      </div>
+      <div class="planet-info">
+        <h1>Uranus</h1>
+        <div class="fact">
+          Uranus was the first planet discovered with the aid of a telescope. It
+          was discovered in 1781 by astronomer William Herschel, although he
+          originally thought it was either a comet or a star.
+        </div>
+        <ul class="fact-list">
+          <li>
+            Distance from the sun: ~ <span id="UranusDistance">000</span>
+            <span class="planet-distance">DI</span>
+          </li>
+          <li>Length of a year: 30,687 Earth days</li>
+          <li>Length of a day: 17 Hours</li>
+          <li>Planet Type: Ice Giant</li>
+          <li>Number of Moons: 27</li>
+        </ul>
+      </div>
     </div>
-    <div id="neptune">
+    <div id="neptune" class="planet">
       <!-- <img src="" alt="The Sun"> -->
-      <h1>Neptune</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et porro
-        molestiae repudiandae delectus dolor obcaecati, neque officiis id eos
-        assumenda repellendus accusantium, adipisci quod fugit, dicta facilis
-        beatae nemo saepe.
-      </p>
+      <div class="moons">
+        <div class="moon"><span class="moonLabel">Triton</span></div>
+        <div class="moon"><span class="moonLabel">Naiad</span></div>
+      </div>
+      <div class="planet-info">
+        <h1>Uranus</h1>
+        <div class="fact">
+          Uranus was the first planet discovered with the aid of a telescope. It
+          was discovered in 1781 by astronomer William Herschel, although he
+          originally thought it was either a comet or a star.
+        </div>
+        <ul class="fact-list">
+          <li>
+            Distance from the sun: ~ <span id="uranusDistance">000</span>
+            <span class="planet-distance">DI</span>
+          </li>
+          <li>Length of a year: 60,190 Earth days</li>
+          <li>Length of a day: 16 Hours</li>
+          <li>Planet Type: Ice Giant</li>
+          <li>Number of Moons: 14</li>
+        </ul>
+      </div>
     </div>
-    <div id="pluto">
+    <div id="pluto" class="planet">
       <!-- <img src="" alt="The Sun"> -->
-      <h1>Pluto</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et porro
-        molestiae repudiandae delectus dolor obcaecati, neque officiis id eos
-        assumenda repellendus accusantium, adipisci quod fugit, dicta facilis
-        beatae nemo saepe.
-      </p>
+      <div class="moons">
+        <div class="moon"><span class="moonLabel">Charon</span></div>
+        <div class="moon"><span class="moonLabel">Nix</span></div>
+        <div class="moon"><span class="moonLabel">Hydra</span></div>
+        <div class="moon"><span class="moonLabel">Styx</span></div>
+        <div class="moon"><span class="moonLabel">Kerberos</span></div>
+      </div>
+      <div class="planet-info">
+        <h1>Pluto</h1>
+        <div class="fact">
+          Pluto's moon Charon is so large, that Pluto and Charon actually orbit
+          eachother.
+        </div>
+        <ul class="fact-list">
+          <li>
+            Distance from the sun: ~ <span id="UranusDistance">000</span>
+            <span class="planet-distance">DI</span>
+          </li>
+          <li>Length of a year: 90,530 Earth days</li>
+          <li>Length of a day: 153 Hours</li>
+          <li>Planet Type: Dwarf Planet</li>
+          <li>Number of Moons: 5</li>
+        </ul>
+      </div>
     </div>
     <script src="app.js"></script>
   </body>
