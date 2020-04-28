@@ -12,6 +12,7 @@
 
 body {
   background: url("https://images.unsplash.com/photo-1520034475321-cbe63696469a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  background-attachment: fixed;
 }
 
 .planet {
@@ -37,6 +38,48 @@ body {
       margin: 1rem 0;
       font-style: italic;
       color: #ddd;
+    }
+  }
+}
+$moon-border-height: 1px;
+
+.moons {
+  margin-bottom: 2rem;
+  .moon {
+    margin: 20px;
+    .moonLabel {
+      position: relative;
+    }
+    .moonLabel:before {
+      content: "";
+      height: $moon-border-height;
+      width: 15px;
+      background: white;
+      position: absolute;
+      bottom: $moon-border-height - 1px;
+      left: -15px;
+      transform: rotate(-45deg);
+      transform-origin: 100% 100%;
+    }
+    .moonLabel:after {
+      content: "";
+      height: $moon-border-height;
+      width: 100%;
+      background: white;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+    .moonImg {
+      background: url("https://pngimg.com/uploads/moon/moon_PNG51.png");
+      height: 25px;
+      width: 25px;
+      background-size: cover;
+      background-position: center center;
+      color: transparent;
+      position: absolute;
+      left: -40px;
+      top: calc(100% + 5px);
     }
   }
 }
