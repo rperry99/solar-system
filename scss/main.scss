@@ -49,26 +49,26 @@ $moon-border-height: 1px;
     margin: 20px;
     .moonLabel {
       position: relative;
-    }
-    .moonLabel:before {
-      content: "";
-      height: $moon-border-height;
-      width: 15px;
-      background: white;
-      position: absolute;
-      bottom: $moon-border-height - 1px;
-      left: -15px;
-      transform: rotate(-45deg);
-      transform-origin: 100% 100%;
-    }
-    .moonLabel:after {
-      content: "";
-      height: $moon-border-height;
-      width: 100%;
-      background: white;
-      position: absolute;
-      bottom: 0;
-      left: 0;
+      &:before {
+        content: "";
+        height: $moon-border-height;
+        width: 15px;
+        background: white;
+        position: absolute;
+        bottom: $moon-border-height - 1px;
+        left: -15px;
+        transform: rotate(-45deg);
+        transform-origin: 100% 100%;
+      }
+      &:after {
+        content: "";
+        height: $moon-border-height;
+        width: 100%;
+        background: white;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
     }
     .moonImg {
       background: url("https://pngimg.com/uploads/moon/moon_PNG51.png");
@@ -78,9 +78,28 @@ $moon-border-height: 1px;
       background-position: center center;
       color: transparent;
       position: absolute;
-      left: -40px;
+      left: -30px;
       top: calc(100% + 5px);
     }
+  }
+}
+.planet {
+  position: relative;
+  img {
+    position: absolute;
+    z-index: -1;
+  }
+}
+#sun {
+  img {
+    width: 100%;
+    top: -40%;
+  }
+}
+#mercury {
+  img {
+    width: 25%;
+    top: 0;
   }
 }
 

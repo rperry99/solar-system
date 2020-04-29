@@ -40,24 +40,24 @@ body {
     margin: 20px; }
     .moons .moon .moonLabel {
       position: relative; }
-    .moons .moon .moonLabel:before {
-      content: "";
-      height: 1px;
-      width: 15px;
-      background: white;
-      position: absolute;
-      bottom: 0px;
-      left: -15px;
-      transform: rotate(-45deg);
-      transform-origin: 100% 100%; }
-    .moons .moon .moonLabel:after {
-      content: "";
-      height: 1px;
-      width: 100%;
-      background: white;
-      position: absolute;
-      bottom: 0;
-      left: 0; }
+      .moons .moon .moonLabel:before {
+        content: "";
+        height: 1px;
+        width: 15px;
+        background: white;
+        position: absolute;
+        bottom: 0px;
+        left: -15px;
+        transform: rotate(-45deg);
+        transform-origin: 100% 100%; }
+      .moons .moon .moonLabel:after {
+        content: "";
+        height: 1px;
+        width: 100%;
+        background: white;
+        position: absolute;
+        bottom: 0;
+        left: 0; }
     .moons .moon .moonImg {
       background: url("https://pngimg.com/uploads/moon/moon_PNG51.png");
       height: 25px;
@@ -66,5 +66,19 @@ body {
       background-position: center center;
       color: transparent;
       position: absolute;
-      left: -10px;
+      left: -30px;
       top: calc(100% + 5px); }
+
+.planet {
+  position: relative; }
+  .planet img {
+    position: absolute;
+    z-index: -1; }
+
+#sun img {
+  width: 100%;
+  top: -40%; }
+
+#mercury img {
+  width: 25%;
+  top: 0; }
