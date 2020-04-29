@@ -5,6 +5,7 @@ Project inspired by: [The Deep Sea](https://neal.fun/deep-sea/) by Neal Agarwal
 ### Photo Credits
 
 - Space Background: [Jake Weirick](https://unsplash.com/@weirick) on [Unsplash](https://www.unsplash.com)
+- Planets: NASA
 
 ### Information Credits
 
