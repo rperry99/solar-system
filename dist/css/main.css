@@ -79,6 +79,23 @@ body {
   width: 100%;
   top: -40%; }
 
-#mercury img {
+#mercury img,
+#mars img,
+#pluto img {
   width: 25%;
+  top: 0; }
+
+#venus img,
+#earth img {
+  width: 30%;
+  top: 0; }
+
+#jupiter img,
+#saturn img {
+  width: 40%;
+  top: 0; }
+
+#uranus img,
+#neptune img {
+  width: 35%;
   top: 0; }

@@ -96,9 +96,34 @@ $moon-border-height: 1px;
     top: -40%;
   }
 }
-#mercury {
+#mercury,
+#mars,
+#pluto {
   img {
     width: 25%;
+    top: 0;
+  }
+}
+#venus,
+#earth {
+  img {
+    width: 30%;
+    top: 0;
+  }
+}
+
+#jupiter,
+#saturn {
+  img {
+    width: 40%;
+    top: 0;
+  }
+}
+
+#uranus,
+#neptune {
+  img {
+    width: 35%;
     top: 0;
   }
 }
