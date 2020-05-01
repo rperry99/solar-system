@@ -44,9 +44,38 @@ body {
 $moon-border-height: 1px;
 
 .moons {
+  position: relative;
+  width: 100%;
+  height: 150px;
   margin-bottom: 2rem;
+  .moon:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 10%;
+  }
+  .moon:nth-child(2) {
+    position: absolute;
+    top: 0;
+    right: 10%;
+  }
+  .moon:nth-child(3) {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+  }
+  .moon:nth-child(4) {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+  }
+  .moon:nth-child(5) {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+  }
   .moon {
     margin: 20px;
+
     .moonLabel {
       position: relative;
       &:before {
