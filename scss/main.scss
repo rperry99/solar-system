@@ -55,18 +55,18 @@ $moon-border-height: 1px;
   }
   .moon:nth-child(2) {
     position: absolute;
-    top: 0;
-    right: 10%;
+    top: 10%;
+    right: 8%;
   }
   .moon:nth-child(3) {
     position: absolute;
-    top: 35%;
-    left: 50%;
+    top: 45%;
+    left: 45%;
   }
   .moon:nth-child(4) {
     position: absolute;
-    bottom: 0;
-    left: 10%;
+    bottom: 10%;
+    left: 20%;
   }
   .moon:nth-child(5) {
     position: absolute;
@@ -75,7 +75,6 @@ $moon-border-height: 1px;
   }
   .moon {
     margin: 20px;
-
     .moonLabel {
       position: relative;
       &:before {
@@ -130,14 +129,14 @@ $moon-border-height: 1px;
 #pluto {
   img {
     width: 25%;
-    top: 0;
+    top: 1rem;
   }
 }
 #venus,
 #earth {
   img {
     width: 30%;
-    top: 0;
+    top: 1rem;
   }
 }
 
@@ -145,7 +144,7 @@ $moon-border-height: 1px;
 #saturn {
   img {
     width: 40%;
-    top: 0;
+    top: 1rem;
   }
 }
 
@@ -153,7 +152,7 @@ $moon-border-height: 1px;
 #neptune {
   img {
     width: 35%;
-    top: 0;
+    top: 1rem;
   }
 }
 

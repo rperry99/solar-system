@@ -45,16 +45,16 @@ body {
     left: 10%; }
   .moons .moon:nth-child(2) {
     position: absolute;
-    top: 0;
-    right: 10%; }
+    top: 10%;
+    right: 8%; }
   .moons .moon:nth-child(3) {
     position: absolute;
-    top: 35%;
-    left: 50%; }
+    top: 45%;
+    left: 45%; }
   .moons .moon:nth-child(4) {
     position: absolute;
-    bottom: 0;
-    left: 10%; }
+    bottom: 10%;
+    left: 20%; }
   .moons .moon:nth-child(5) {
     position: absolute;
     bottom: 0;
@@ -106,19 +106,19 @@ body {
 #mars img,
 #pluto img {
   width: 25%;
-  top: 0; }
+  top: 1rem; }
 
 #venus img,
 #earth img {
   width: 30%;
-  top: 0; }
+  top: 1rem; }
 
 #jupiter img,
 #saturn img {
   width: 40%;
-  top: 0; }
+  top: 1rem; }
 
 #uranus img,
 #neptune img {
   width: 35%;
-  top: 0; }
+  top: 1rem; }
