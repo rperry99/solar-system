@@ -156,5 +156,35 @@ $moon-border-height: 1px;
   }
 }
 
-.planet:nth-of-type(odd) {
+@media (min-width: 768px) {
+  #sun {
+    img {
+      top: -50%;
+      left: -60%;
+    }
+  }
+  .planet {
+    position: relative;
+    .planet-info {
+      width: 60%;
+      position: absolute;
+      padding: 0 2rem;
+    }
+    &:nth-of-type(odd) {
+      .planet-info {
+        right: 0;
+      }
+      img {
+        left: 0;
+      }
+    }
+    &:nth-of-type(even) {
+      .planet-info {
+        left: 0;
+      }
+      img {
+        right: 0;
+      }
+    }
+  }
 }
