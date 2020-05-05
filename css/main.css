@@ -51,6 +51,7 @@ body {
 
 .planet-distance {
   border-bottom: dotted 2px white;
+  font-size: 0.8rem;
 }
 .planet-distance:hover {
   cursor: pointer;
