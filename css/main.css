@@ -32,7 +32,7 @@ body {
   text-align: center;
 }
 .planet .planet-info .fact-list {
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
 }
 .planet .planet-info .fact {
@@ -47,6 +47,13 @@ body {
 .planet img {
   position: absolute;
   z-index: -1;
+}
+
+.planet-distance {
+  border-bottom: dotted 2px white;
+}
+.planet-distance:hover {
+  cursor: pointer;
 }
 
 #sun img {
