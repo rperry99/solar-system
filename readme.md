@@ -20,3 +20,8 @@ Project inspired by: [The Deep Sea](https://neal.fun/deep-sea/) by Neal Agarwal
   - [Uranus](https://solarsystem.nasa.gov/planets/uranus/overview/)
   - [Neptune](https://solarsystem.nasa.gov/planets/Neptune/overview/)
   - [Pluto](https://solarsystem.nasa.gov/planets/dwarf-planets/pluto/overview/)
+
+### Animation Credits
+
+- Library: [Animate.css](https://github.com/daneden/animate.css)
+- [Tutorial where I got the JS from](https://youtu.be/TfDK-KLq0Ks)
