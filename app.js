@@ -141,10 +141,6 @@ $(document).ready(function () {
   $(function () {
     var $window = $(window),
       win_height_padded = $window.height() * 1.1;
-    //   isTouch = Modernizr.touch;
-    // if (isTouch) {
-    //   $(".revealOnScroll").addClass("animated");
-    // }
     $window.on("scroll", revealOnScroll);
     function revealOnScroll() {
       var scrolled = $window.scrollTop(),
