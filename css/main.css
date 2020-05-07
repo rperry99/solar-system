@@ -51,6 +51,9 @@ body {
 .planet {
   position: relative;
 }
+.planet:not(#sun) {
+  opacity: 0;
+}
 .planet img {
   position: absolute;
   z-index: -1;

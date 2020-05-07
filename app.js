@@ -147,7 +147,7 @@ $(document).ready(function () {
         win_height_padded = $window.height() * 1.1;
       $(".revealOnScroll:not(.animated)").each(function () {
         var $this = $(this),
-          offsetTop = $this.offset().top;
+          offsetTop = $this.offset().top + 100;
         if (scrolled + win_height_padded > offsetTop) {
           if ($this.data("timeout")) {
             window.setTimeout(function () {
@@ -160,7 +160,7 @@ $(document).ready(function () {
       });
       $(".revealOnScroll.animated").each(function (index) {
         var $this = $(this),
-          offsetTop = $this.offset().top;
+          offsetTop = $this.offset().top + 100;
         if (scrolled + win_height_padded < offsetTop) {
           $(this).removeClass("animated fadeInLeft fadeInRight");
         }
