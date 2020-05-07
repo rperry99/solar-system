@@ -112,15 +112,15 @@ body {
     padding: 0 2rem;
   }
   .planet:nth-of-type(odd) .planet-info {
-    right: 2rem;
+    right: 20px;
   }
   .planet:nth-of-type(odd) img {
-    left: 2rem;
+    left: 20px;
   }
   .planet:nth-of-type(even) .planet-info {
-    left: 0;
+    left: 20px;
   }
   .planet:nth-of-type(even) img {
-    right: 0;
+    right: 20px;
   }
 }
