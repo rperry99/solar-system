@@ -25,6 +25,10 @@ body {
 .planet .planet-info {
   width: 90%;
   margin: 0 auto;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2rem !important;
+  border-radius: 10px;
+  border: solid 2px rgba(88, 88, 88, 0.7);
 }
 .planet .planet-info h1 {
   font-size: 20px;
