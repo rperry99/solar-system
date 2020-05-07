@@ -63,8 +63,9 @@ body {
 }
 
 #sun img {
-  width: 120%;
+  width: 100%;
   top: -20%;
+  overflow: hidden;
 }
 
 #mercury img,
