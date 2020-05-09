@@ -103,8 +103,9 @@ body {
     overflow-x: hidden;
   }
   #sun img {
+    width: 50%;
     top: -50%;
-    left: -60%;
+    left: -25%;
   }
   .planet {
     position: relative;
